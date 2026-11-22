@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LUXE &amp; CO. — Premium Fashion &amp; Lifestyle Boutique</title>
+<meta name="description" content="LUXE & CO. — timeless fashion, cozy essentials and carefully selected pieces for adults and kids. Watches, footwear, glasses, bags and clothing.">
+<meta name="theme-color" content="#102D26">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23102D26'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='34' fill='%23C6A56B' text-anchor='middle'%3EL%3C/text%3E%3C/svg%3E">
+<link rel="preload" as="image" href="img/hero.jpg">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<svg class="svg-defs" aria-hidden="true" focusable="false">
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.8-3.8"/></symbol>
+  <symbol id="i-bag" viewBox="0 0 24 24"><path d="M6 8h12l1 12H5L6 8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></symbol>
+  <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-7.5-4.6-9.3-9A5.2 5.2 0 0 1 12 6.6 5.2 5.2 0 0 1 21.3 11c-1.8 4.4-9.3 9-9.3 9Z"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 3 2.7 5.7 6.3.8-4.6 4.3 1.2 6.2L12 17l-5.6 3 1.2-6.2L3 9.5l6.3-.8L12 3Z"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+  <symbol id="i-minus" viewBox="0 0 24 24"><path d="M5 12h14"/></symbol>
+  <symbol id="i-arrow-r" viewBox="0 0 24 24"><path d="M4 12h15m-6-7 7 7-7 7"/></symbol>
+  <symbol id="i-arrow-l" viewBox="0 0 24 24"><path d="M20 12H5m6-7-7 7 7 7"/></symbol>
+  <symbol id="i-arrow-up" viewBox="0 0 24 24"><path d="M12 20V5m-7 6 7-7 7 7"/></symbol>
+  <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a12 12 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z"/></symbol>
+  <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.4-4 4.4-6 8-6s6.6 2 8 6"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="m4 12.5 5 5L20 6.5"/></symbol>
+  <symbol id="i-eye" viewBox="0 0 24 24"><path d="M2 12s3.6-6 10-6 10 6 10 6-3.6 6-10 6-10-6-10-6Z"/><circle cx="12" cy="12" r="2.6"/></symbol>
+  <symbol id="i-trash" viewBox="0 0 24 24"><path d="M4 7h16M9 7V5h6v2m-8 0 1 13h8l1-13"/></symbol>
+  <symbol id="i-truck" viewBox="0 0 24 24"><path d="M2 6h12v11H2zM14 10h4l4 4v3h-8"/><circle cx="6.5" cy="18" r="1.8"/><circle cx="17.5" cy="18" r="1.8"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3 4 6v6c0 5 3.4 8 8 9 4.6-1 8-4 8-9V6l-8-3Z"/><path d="m8.5 12 2.5 2.5 4.5-4.5"/></symbol>
+  <symbol id="i-leaf" viewBox="0 0 24 24"><path d="M20 4C10 4 4 10 4 20c10 0 16-6 16-16Z"/><path d="M4 20C9 15 13 11 20 4"/></symbol>
+  <symbol id="i-gem" viewBox="0 0 24 24"><path d="m7 4h10l4 5-9 11L3 9l4-5Z"/><path d="M3 9h18M9.5 9 12 20 14.5 9M7 4l2.5 5L12 4l2.5 5L17 4"/></symbol>
+  <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" class="dot"/></symbol>
+  <symbol id="i-facebook" viewBox="0 0 24 24"><path d="M14 8h3V4.5h-3c-2.5 0-4 1.6-4 4V11H7.5v3.5H10V21h3.5v-6.5h2.8l.5-3.5h-3.3V8.7c0-.5.2-.7.5-.7Z"/></symbol>
+  <symbol id="i-pinterest" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M10 17.5 12 9m-1.6 3.4c-.5-1.6.4-3.4 2.3-3.4 1.7 0 2.6 1.2 2.6 2.8 0 2-1.2 3.6-2.9 3.6-.9 0-1.6-.5-1.8-1.2"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="m4 4 16 16M20 4 4 20"/></symbol>
+</svg>
+
+<a class="skip-link" href="#shop">Skip to shopping</a>
+
+<div class="announce">
+  <p><span class="announce-dot"></span> Complimentary shipping across the Philippines on orders over &#8369;5,000 <span class="announce-sep">&middot;</span> The Autumn&ndash;Winter Atelier Edit has arrived</p>
+</div>
+
+<header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <button class="icon-btn nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav">
+      <svg class="icon"><use href="#i-menu"/></svg>
+    </button>
+
+    <a class="brand" href="#home" aria-label="LUXE and CO. home">
+      <span class="brand-mark">L<span class="brand-amp">&amp;</span>C</span>
+      <span class="brand-text">LUXE <span class="brand-amp">&amp;</span> CO.<span class="brand-sub">Manila &middot; Est. 2016</span></span>
+    </a>
+
+    <nav class="main-nav" aria-label="Primary">
+      <a href="#home" class="nav-link is-active">Home</a>
+      <a href="#shop" class="nav-link" data-nav-filter="all">Shop All</a>
+      <a href="#shop" class="nav-link" data-nav-filter="watches">Watches</a>
+      <a href="#shop" class="nav-link" data-nav-filter="footwear">Footwear</a>
+      <a href="#shop" class="nav-link" data-nav-filter="glasses">Glasses</a>
+      <a href="#shop" class="nav-link" data-nav-filter="bags">Bags</a>
+      <a href="#shop" class="nav-link" data-nav-filter="adults">Adults</a>
+      <a href="#shop" class="nav-link" data-nav-filter="kids">Kids</a>
+      <a href="#about" class="nav-link">About Us</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="icon-btn" id="searchToggle" aria-label="Search products">
+        <svg class="icon"><use href="#i-search"/></svg>
+      </button>
+      <button class="icon-btn" id="wishlistToggle" aria-label="Open wishlist">
+        <svg class="icon"><use href="#i-heart"/></svg>
+        <span class="count-badge" id="wishlistCount" hidden>0</span>
+      </button>
+      <button class="icon-btn cart-btn" id="cartToggle" aria-label="Open shopping bag">
+        <svg class="icon"><use href="#i-bag"/></svg>
+        <span class="count-badge" id="cartCount" hidden>0</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="mobile-nav" id="mobileNav" aria-hidden="true">
+    <nav aria-label="Mobile">
+      <a href="#home" class="m-link">Home</a>
+      <a href="#shop" class="m-link" data-nav-filter="all">Shop All</a>
+      <a href="#shop" class="m-link" data-nav-filter="watches">Watches</a>
+      <a href="#shop" class="m-link" data-nav-filter="footwear">Footwear</a>
+      <a href="#shop" class="m-link" data-nav-filter="glasses">Glasses</a>
+      <a href="#shop" class="m-link" data-nav-filter="bags">Bags</a>
+      <a href="#shop" class="m-link" data-nav-filter="adults">Adults</a>
+      <a href="#shop" class="m-link" data-nav-filter="kids">Kids</a>
+      <a href="#about" class="m-link">About Us</a>
+      <a href="#contact" class="m-link">Contact</a>
+    </nav>
+    <p class="m-note">Atelier hotline &middot; 09897678657</p>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home">
+    <div class="hero-media" aria-hidden="true">
+      <img src="img/hero.jpg" alt="" fetchpriority="high">
+    </div>
+    <div class="hero-scrim" aria-hidden="true"></div>
+    <div class="hero-orbs" aria-hidden="true"><span></span><span></span><span></span></div>
+
+    <div class="hero-content container">
+      <p class="eyebrow reveal">The Autumn&ndash;Winter Atelier Edit</p>
+      <h1 class="hero-title reveal">Style that feels<br>like <em>luxury.</em></h1>
+      <p class="hero-lede reveal">Discover timeless fashion, everyday essentials, and cozy collections designed for every generation.</p>
+      <div class="hero-cta reveal">
+        <a href="#categories" class="btn btn-gold">Explore Collection <svg class="icon"><use href="#i-arrow-r"/></svg></a>
+        <a href="#shop" class="btn btn-rose" data-nav-filter="all">Shop Now</a>
+      </div>
+      <ul class="hero-assurance reveal">
+        <li><svg class="icon"><use href="#i-truck"/></svg> Free PH shipping over &#8369;5,000</li>
+        <li><svg class="icon"><use href="#i-shield"/></svg> 30-day easy returns</li>
+        <li><svg class="icon"><use href="#i-gem"/></svg> 24 curated pieces</li>
+      </ul>
+    </div>
+
+    <p class="hero-side" aria-hidden="true">Forest green &middot; Dusty rose &middot; Champagne gold</p>
+    <a class="hero-scroll" href="#categories" aria-label="Scroll to categories"><span></span>Scroll</a>
+  </section>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Timeless</span><i>&#10022;</i><span>Cozy</span><i>&#10022;</i><span>Refined</span><i>&#10022;</i><span>For every generation</span><i>&#10022;</i><span>Considered materials</span><i>&#10022;</i>
+      <span>Timeless</span><i>&#10022;</i><span>Cozy</span><i>&#10022;</i><span>Refined</span><i>&#10022;</i><span>For every generation</span><i>&#10022;</i><span>Considered materials</span><i>&#10022;</i>
+    </div>
+  </div>
+
+  <!-- ============ CATEGORIES ============ -->
+  <section class="section categories" id="categories">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="eyebrow">Curated Departments</p>
+        <h2 class="section-title">Shop by <em>Category</em></h2>
+        <p class="section-lede">Six departments, one point of view &mdash; pieces chosen for the way they feel as much as the way they look.</p>
+      </header>
+
+      <div class="category-grid">
+        <article class="category-card reveal" data-filter="watches" tabindex="0" role="button" aria-label="Explore the Watches collection">
+          <img src="img/cat-watches.jpg" alt="Gold, rose-gold and leather wristwatches arranged on marble" loading="lazy">
+          <div class="category-body">
+            <p class="category-index">01</p>
+            <h3>Watches</h3>
+            <p>Heirloom-weight metals and quiet dials for every wrist.</p>
+            <span class="btn btn-line">Explore Collection <svg class="icon"><use href="#i-arrow-r"/></svg></span>
+          </div>
+        </article>
+        <article class="category-card reveal" data-filter="footwear" tabindex="0" role="button" aria-label="Explore the Footwear collection">
+          <img src="img/cat-footwear.jpg" alt="Tan leather loafers and dusty rose heels on a marble step" loading="lazy">
+          <div class="category-body">
+            <p class="category-index">02</p>
+            <h3>Footwear</h3>
+            <p>Soft leather, cushioned soles, all-day ease.</p>
+            <span class="btn btn-line">Explore Collection <svg class="icon"><use href="#i-arrow-r"/></svg></span>
+          </div>
+        </article>
+        <article class="category-card reveal" data-filter="glasses" tabindex="0" role="button" aria-label="Explore the Glasses collection">
+          <img src="img/cat-glasses.jpg" alt="Tortoiseshell, black and rose eyewear on a cream marble slab" loading="lazy">
+          <div class="category-body">
+            <p class="category-index">03</p>
+            <h3>Glasses</h3>
+            <p>Frames that finish a face, from round to square.</p>
+            <span class="btn btn-line">Explore Collection <svg class="icon"><use href="#i-arrow-r"/></svg></span>
+          </div>
+        </article>
+        <article class="category-card reveal" data-filter="bags" tabindex="0" role="button" aria-label="Explore the Bags collection">
+          <img src="img/cat-bags.jpg" alt="Structured rose handbag with cream tote and tan crossbody" loading="lazy">
+          <div class="category-body">
+            <p class="category-index">04</p>
+            <h3>Bags</h3>
+            <p>Structured carryalls in grain-rich leather and canvas.</p>
+            <span class="btn btn-line">Explore Collection <svg class="icon"><use href="#i-arrow-r"/></svg></span>
+          </div>
+        </article>
+        <article class="category-card reveal" data-filter="adults" tabindex="0" role="button" aria-label="Explore the Adult Clothing collection">
+          <img src="img/cat-adults.jpg" alt="Camel coat, cream cashmere and rose silk blouse on an oak bench" loading="lazy">
+          <div class="category-body">
+            <p class="category-index">05</p>
+            <h3>Adult Clothing</h3>
+            <p>Cozy knits and fluid tailoring for grown-up days.</p>
+            <span class="btn btn-line">Explore Collection <svg class="icon"><use href="#i-arrow-r"/></svg></span>
+          </div>
+        </article>
+        <article class="category-card reveal" data-filter="kids" tabindex="0" role="button" aria-label="Explore the Kids' Clothing collection">
+          <img src="img/cat-kids.jpg" alt="Cream kids hoodie, rose dress and tiny sneakers on a wooden bench" loading="lazy">
+          <div class="category-body">
+            <p class="category-index">06</p>
+            <h3>Kids&rsquo; Clothing</h3>
+            <p>Play-proof softness in the same house palette.</p>
+            <span class="btn btn-line">Explore Collection <svg class="icon"><use href="#i-arrow-r"/></svg></span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SHOP / FEATURED ============ -->
+  <section class="section shop" id="shop">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="eyebrow">The Featured Catalog</p>
+        <h2 class="section-title">Pieces worth <em>keeping</em></h2>
+        <p class="section-lede">Every piece below is in the atelier now. Filter, sort and search &mdash; your bag updates as you go.</p>
+      </header>
+
+      <div class="shop-toolbar reveal">
+        <div class="chip-row" id="filterChips" role="group" aria-label="Filter by category">
+          <button class="chip is-active" data-chip="all">All Pieces</button>
+          <button class="chip" data-chip="watches">Watches</button>
+          <button class="chip" data-chip="footwear">Footwear</button>
+          <button class="chip" data-chip="glasses">Glasses</button>
+          <button class="chip" data-chip="bags">Bags</button>
+          <button class="chip" data-chip="adults">Adults</button>
+          <button class="chip" data-chip="kids">Kids</button>
+          <button class="chip chip-accent" data-chip="best">Best Sellers</button>
+          <button class="chip chip-accent" data-chip="new">New In</button>
+        </div>
+        <div class="toolbar-right">
+          <label class="search-field">
+            <svg class="icon"><use href="#i-search"/></svg>
+            <input type="search" id="shopSearch" placeholder="Search pieces&hellip;" aria-label="Search products by name">
+          </label>
+          <label class="sort-field">
+            <span class="sort-label">Sort</span>
+            <select id="sortSelect" aria-label="Sort products">
+              <option value="featured">Featured</option>
+              <option value="price-asc">Price: Low to High</option>
+              <option value="price-desc">Price: High to Low</option>
+              <option value="rating">Top Rated</option>
+              <option value="name">Name: A&ndash;Z</option>
+            </select>
+            <svg class="icon sort-chevron"><use href="#i-chevron"/></svg>
+          </label>
+        </div>
+      </div>
+
+      <p class="result-line" id="resultLine" aria-live="polite">Showing 24 pieces</p>
+      <div class="product-grid" id="productGrid"></div>
+      <div class="empty-state" id="emptyState" hidden>
+        <svg class="icon"><use href="#i-search"/></svg>
+        <h3>Nothing matches that search</h3>
+        <p>Try a different word, or clear the filters to see the whole atelier.</p>
+        <button class="btn btn-rose" id="clearFilters">Clear filters</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ COLLECTIONS ============ -->
+  <section class="collections" id="collections">
+    <article class="collection collection-green">
+      <div class="container collection-inner">
+        <figure class="collection-media reveal">
+          <img src="img/collection-women.jpg" alt="Woman in a dusty rose silk dress with a camel coat and rose handbag" loading="lazy">
+          <figcaption class="collection-tag">Edit No. 01</figcaption>
+        </figure>
+        <div class="collection-copy reveal">
+          <p class="eyebrow">Women&rsquo;s Collection</p>
+          <h2 class="collection-title">Softness, <em>tailored.</em></h2>
+          <p class="collection-lede">Fluid silk, rose-tinted leather and knits that hold their shape from morning meetings to slow evenings. Dressing up, without the effort.</p>
+          <div class="collection-thumbs" data-line="women"></div>
+          <button class="btn btn-rose" data-line-shop="women">Shop Women&rsquo;s <svg class="icon"><use href="#i-arrow-r"/></svg></button>
+        </div>
+      </div>
+    </article>
+
+    <article class="collection collection-charcoal">
+      <div class="container collection-inner is-flipped">
+        <figure class="collection-media reveal">
+          <img src="img/collection-men.jpg" alt="Man in a cream linen shirt and forest green tailored trousers" loading="lazy">
+          <figcaption class="collection-tag">Edit No. 02</figcaption>
+        </figure>
+        <div class="collection-copy reveal">
+          <p class="eyebrow">Men&rsquo;s Collection</p>
+          <h2 class="collection-title">Quiet <em>confidence.</em></h2>
+          <p class="collection-lede">Linen that breathes, trousers that fall clean, leather that ages beautifully. A wardrobe built on pieces you reach for without thinking.</p>
+          <div class="collection-thumbs" data-line="men"></div>
+          <button class="btn btn-gold" data-line-shop="men">Shop Men&rsquo;s <svg class="icon"><use href="#i-arrow-r"/></svg></button>
+        </div>
+      </div>
+    </article>
+
+    <article class="collection collection-rose">
+      <div class="container collection-inner">
+        <figure class="collection-media reveal">
+          <img src="img/collection-kids.jpg" alt="Two children in cozy cream and rose outfits on a linen armchair" loading="lazy">
+          <figcaption class="collection-tag">Edit No. 03</figcaption>
+        </figure>
+        <div class="collection-copy reveal">
+          <p class="eyebrow">Kids&rsquo; Collection</p>
+          <h2 class="collection-title">Little <em>heirlooms.</em></h2>
+          <p class="collection-lede">The same house palette, sized for play. Brushed fleece, breathable cotton and seams that survive the playground &mdash; then get handed down.</p>
+          <div class="collection-thumbs" data-line="kids"></div>
+          <button class="btn btn-rose" data-line-shop="kids">Shop Kids&rsquo; <svg class="icon"><use href="#i-arrow-r"/></svg></button>
+        </div>
+      </div>
+    </article>
+
+    <article class="collection collection-green-alt">
+      <div class="container collection-inner is-flipped">
+        <figure class="collection-media reveal">
+          <img src="img/collection-accessories.jpg" alt="Flat lay of gold watch, tortoiseshell sunglasses, rose card holder and silk scarf on green velvet" loading="lazy">
+          <figcaption class="collection-tag">Edit No. 04</figcaption>
+        </figure>
+        <div class="collection-copy reveal">
+          <p class="eyebrow">Accessories Collection</p>
+          <h2 class="collection-title">The finishing <em>touch.</em></h2>
+          <p class="collection-lede">Gold that catches the light, acetate with depth, silk that knots just so. Small pieces that make an outfit feel intentional.</p>
+          <div class="collection-thumbs" data-line="accessories"></div>
+          <button class="btn btn-gold" data-line-shop="accessories">Shop Accessories <svg class="icon"><use href="#i-arrow-r"/></svg></button>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <!-- ============ PROMO ============ -->
+  <section class="promo" id="promo">
+    <img class="promo-media" src="img/promo.jpg" alt="" loading="lazy" aria-hidden="true">
+    <div class="promo-scrim" aria-hidden="true"></div>
+    <span class="promo-ring" aria-hidden="true"></span>
+    <span class="promo-spark promo-spark-a" aria-hidden="true">&#10022;</span>
+    <span class="promo-spark promo-spark-b" aria-hidden="true">&#10022;</span>
+    <div class="container promo-content reveal">
+      <p class="eyebrow eyebrow-rose">Members&rsquo; Privilege</p>
+      <h2 class="promo-title">A little luxury, <em>every day.</em></h2>
+      <p class="promo-lede">Find your favorite pieces and make every outfit unforgettable.</p>
+      <a href="#shop" class="btn btn-rose" data-nav-filter="all">Shop the Collection <svg class="icon"><use href="#i-arrow-r"/></svg></a>
+      <p class="promo-fine">Use code <strong>ATELIER10</strong> for 10% off your first order &middot; demonstration offer</p>
+    </div>
+  </section>
+
+  <!-- ============ BEST SELLERS ============ -->
+  <section class="section bestsellers" id="best-sellers">
+    <div class="container">
+      <header class="section-head section-head-row reveal">
+        <div>
+          <p class="eyebrow">Loved on Repeat</p>
+          <h2 class="section-title">Best <em>Sellers</em></h2>
+        </div>
+        <button class="btn btn-line" data-chip-jump="best">View all best sellers <svg class="icon"><use href="#i-arrow-r"/></svg></button>
+      </header>
+      <div class="product-grid grid-four" id="bestGrid"></div>
+    </div>
+  </section>
+
+  <!-- ============ NEW ARRIVALS ============ -->
+  <section class="section arrivals" id="new-arrivals">
+    <div class="container">
+      <header class="section-head section-head-row reveal">
+        <div>
+          <p class="eyebrow">Just Landed</p>
+          <h2 class="section-title">New <em>Arrivals</em></h2>
+        </div>
+        <div class="carousel-nav">
+          <button class="icon-btn" id="arrPrev" aria-label="Scroll new arrivals left"><svg class="icon"><use href="#i-arrow-l"/></svg></button>
+          <button class="btn btn-line" data-chip-jump="new">View all</button>
+          <button class="icon-btn" id="arrNext" aria-label="Scroll new arrivals right"><svg class="icon"><use href="#i-arrow-r"/></svg></button>
+        </div>
+      </header>
+    </div>
+    <div class="carousel-wrap">
+      <div class="carousel" id="arrCarousel"></div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section about" id="about">
+    <div class="container about-inner">
+      <figure class="about-media reveal">
+        <img src="img/about.jpg" alt="A woman and child browsing a leather bag together inside the LUXE & CO. atelier" loading="lazy">
+        <figcaption class="about-badge"><span class="about-badge-num">10</span><span>years of<br>considered dressing</span></figcaption>
+      </figure>
+      <div class="about-copy reveal">
+        <p class="eyebrow">Our House</p>
+        <h2 class="section-title">Fashion for every <em>generation.</em></h2>
+        <p class="about-lede">LUXE &amp; CO. brings together timeless style, cozy essentials, and carefully selected fashion pieces for adults and kids. From everyday footwear to elegant accessories, we believe that comfort and style should always go together.</p>
+        <ul class="about-values">
+          <li><svg class="icon"><use href="#i-leaf"/></svg><div><h3>Considered materials</h3><p>Grain-rich leather, breathable linen and wool chosen to age gracefully.</p></div></li>
+          <li><svg class="icon"><use href="#i-gem"/></svg><div><h3>Cozy by design</h3><p>Every piece is wear-tested for a full day before it earns a place here.</p></div></li>
+          <li><svg class="icon"><use href="#i-heart"/></svg><div><h3>Made to be handed down</h3><p>One palette across adult and kids lines, so pieces live twice.</p></div></li>
+        </ul>
+        <p class="about-sign">&mdash; The LUXE &amp; CO. atelier, Manila</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section contact" id="contact">
+    <div class="container contact-inner">
+      <div class="contact-copy reveal">
+        <p class="eyebrow">We&rsquo;d love to hear from you</p>
+        <h2 class="section-title">Visit the <em>atelier.</em></h2>
+        <p class="section-lede">Sizing questions, styling advice or a piece you can&rsquo;t find &mdash; our concierge replies within one business day.</p>
+
+        <div class="contact-cards">
+          <div class="contact-card">
+            <span class="contact-ico"><svg class="icon"><use href="#i-user"/></svg></span>
+            <div><p class="contact-label">Contact Person</p><p class="contact-value">@dagoya ronelyn</p></div>
+          </div>
+          <div class="contact-card">
+            <span class="contact-ico"><svg class="icon"><use href="#i-phone"/></svg></span>
+            <div><p class="contact-label">Phone Number</p><p class="contact-value"><a href="tel:09897678657">09897678657</a></p></div>
+          </div>
+          <div class="contact-card">
+            <span class="contact-ico"><svg class="icon"><use href="#i-instagram"/></svg></span>
+            <div><p class="contact-label">Social Media</p><p class="contact-value">@luxeco.atelier</p>
+              <div class="social-row">
+                <a href="#contact" class="social-btn" aria-label="Instagram"><svg class="icon"><use href="#i-instagram"/></svg></a>
+                <a href="#contact" class="social-btn" aria-label="Facebook"><svg class="icon"><use href="#i-facebook"/></svg></a>
+                <a href="#contact" class="social-btn" aria-label="Pinterest"><svg class="icon"><use href="#i-pinterest"/></svg></a>
+                <a href="#contact" class="social-btn" aria-label="X"><svg class="icon"><use href="#i-x"/></svg></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <form class="contact-form reveal" id="contactForm" novalidate>
+        <h3 class="form-title">Send a message</h3>
+        <div class="field">
+          <label for="cfName">Name</label>
+          <input id="cfName" name="name" type="text" autocomplete="name" placeholder="Your full name">
+          <p class="field-error" id="errName"></p>
+        </div>
+        <div class="field">
+          <label for="cfEmail">Email</label>
+          <input id="cfEmail" name="email" type="email" autocomplete="email" placeholder="you@example.com">
+          <p class="field-error" id="errEmail"></p>
+        </div>
+        <div class="field">
+          <label for="cfMessage">Message</label>
+          <textarea id="cfMessage" name="message" rows="5" placeholder="Tell us what you&rsquo;re looking for&hellip;"></textarea>
+          <p class="field-error" id="errMessage"></p>
+        </div>
+        <button type="submit" class="btn btn-rose btn-block">Send Message <svg class="icon"><use href="#i-arrow-r"/></svg></button>
+        <p class="form-note" id="formNote" role="status">This is a front-end demonstration. Messages are validated in your browser and are not delivered.</p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a class="brand" href="#home"><span class="brand-mark">L<span class="brand-amp">&amp;</span>C</span><span class="brand-text">LUXE <span class="brand-amp">&amp;</span> CO.</span></a>
+      <p class="footer-desc">A Manila atelier for timeless fashion and cozy essentials &mdash; carefully selected pieces for adults and kids, in forest green, dusty rose and champagne gold.</p>
+      <div class="social-row">
+        <a href="#home" class="social-btn" aria-label="Instagram"><svg class="icon"><use href="#i-instagram"/></svg></a>
+        <a href="#home" class="social-btn" aria-label="Facebook"><svg class="icon"><use href="#i-facebook"/></svg></a>
+        <a href="#home" class="social-btn" aria-label="Pinterest"><svg class="icon"><use href="#i-pinterest"/></svg></a>
+        <a href="#home" class="social-btn" aria-label="X"><svg class="icon"><use href="#i-x"/></svg></a>
+      </div>
+    </div>
+    <nav class="footer-col" aria-label="Quick links">
+      <h3>Quick Links</h3>
+      <a href="#home">Home</a>
+      <a href="#shop" data-nav-filter="all">Shop All</a>
+      <a href="#collections">Collections</a>
+      <a href="#best-sellers">Best Sellers</a>
+      <a href="#new-arrivals">New Arrivals</a>
+      <a href="#about">About Us</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <nav class="footer-col" aria-label="Categories">
+      <h3>Categories</h3>
+      <a href="#shop" data-nav-filter="watches">Watches</a>
+      <a href="#shop" data-nav-filter="footwear">Footwear</a>
+      <a href="#shop" data-nav-filter="glasses">Glasses</a>
+      <a href="#shop" data-nav-filter="bags">Bags</a>
+      <a href="#shop" data-nav-filter="adults">Adult Clothing</a>
+      <a href="#shop" data-nav-filter="kids">Kids&rsquo; Clothing</a>
+    </nav>
+    <div class="footer-col">
+      <h3>Concierge</h3>
+      <p class="footer-contact"><svg class="icon"><use href="#i-user"/></svg> @dagoya ronelyn</p>
+      <p class="footer-contact"><svg class="icon"><use href="#i-phone"/></svg> <a href="tel:09897678657">09897678657</a></p>
+      <p class="footer-contact"><svg class="icon"><use href="#i-mail"/></svg> hello@luxeco.example</p>
+      <p class="footer-hours">Mon&ndash;Sat &middot; 10:00&ndash;19:00 PHT<br>BGC, Taguig City, Philippines</p>
+    </div>
+  </div>
+  <div class="footer-base">
+    <div class="container footer-base-inner">
+      <p>&copy; 2026 LUXE &amp; CO. All Rights Reserved.</p>
+      <p class="footer-demo">Front-end shopping demonstration &mdash; no payments or orders are processed.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ OVERLAYS ============ -->
+<div class="scrim" id="scrim" hidden></div>
+
+<aside class="drawer" id="cartDrawer" aria-label="Shopping bag" aria-hidden="true">
+  <header class="drawer-head">
+    <h2><svg class="icon"><use href="#i-bag"/></svg> Your Bag <span class="drawer-count" id="cartDrawerCount">(0)</span></h2>
+    <button class="icon-btn" data-close aria-label="Close bag"><svg class="icon"><use href="#i-close"/></svg></button>
+  </header>
+  <div class="drawer-body" id="cartBody"></div>
+  <footer class="drawer-foot" id="cartFoot"></footer>
+</aside>
+
+<aside class="drawer" id="wishlistDrawer" aria-label="Wishlist" aria-hidden="true">
+  <header class="drawer-head">
+    <h2><svg class="icon"><use href="#i-heart"/></svg> Wishlist <span class="drawer-count" id="wishDrawerCount">(0)</span></h2>
+    <button class="icon-btn" data-close aria-label="Close wishlist"><svg class="icon"><use href="#i-close"/></svg></button>
+  </header>
+  <div class="drawer-body" id="wishlistBody"></div>
+</aside>
+
+<div class="modal" id="productModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-hidden="true">
+  <div class="modal-card">
+    <button class="icon-btn modal-close" data-close aria-label="Close product details"><svg class="icon"><use href="#i-close"/></svg></button>
+    <div class="modal-media"><img id="modalImg" alt=""><span class="badge" id="modalBadge" hidden></span></div>
+    <div class="modal-info">
+      <p class="modal-cat" id="modalCat"></p>
+      <h2 id="modalTitle"></h2>
+      <div class="modal-rating" id="modalRating"></div>
+      <p class="modal-price" id="modalPrice"></p>
+      <p class="modal-desc" id="modalDesc"></p>
+      <ul class="modal-meta" id="modalMeta"></ul>
+      <div class="modal-buy">
+        <div class="qty-stepper" aria-label="Quantity">
+          <button class="icon-btn" id="modalMinus" aria-label="Decrease quantity"><svg class="icon"><use href="#i-minus"/></svg></button>
+          <span id="modalQty">1</span>
+          <button class="icon-btn" id="modalPlus" aria-label="Increase quantity"><svg class="icon"><use href="#i-plus"/></svg></button>
+        </div>
+        <button class="btn btn-rose" id="modalAdd">Add to Cart <svg class="icon"><use href="#i-bag"/></svg></button>
+        <button class="icon-btn modal-wish" id="modalWish" aria-label="Add to wishlist"><svg class="icon"><use href="#i-heart"/></svg></button>
+      </div>
+      <p class="modal-fine"><svg class="icon"><use href="#i-truck"/></svg> Free PH shipping over &#8369;5,000 &middot; 30-day returns</p>
+    </div>
+  </div>
+</div>
+
+<div class="search-overlay" id="searchOverlay" aria-hidden="true">
+  <div class="search-panel">
+    <div class="search-bar">
+      <svg class="icon"><use href="#i-search"/></svg>
+      <input type="search" id="overlaySearch" placeholder="Search watches, bags, knits&hellip;" aria-label="Search products">
+      <button class="icon-btn" data-close aria-label="Close search"><svg class="icon"><use href="#i-close"/></svg></button>
+    </div>
+    <p class="search-hint" id="searchHint">Type to search the atelier &mdash; 24 pieces available.</p>
+    <div class="search-results" id="searchResults"></div>
+  </div>
+</div>
+
+<div class="toast-region" id="toastRegion" aria-live="polite" aria-atomic="false"></div>
+
+<button class="to-top" id="toTop" aria-label="Back to top"><svg class="icon"><use href="#i-arrow-up"/></svg></button>
+
+<script src="js/script.js"></script>
+</body>
+</html>
